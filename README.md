@@ -21,12 +21,6 @@ Activate the virtual environment:
 source .venv/bin/activate
 ```
 
-Add the required dependencies:
-```bash
-uv add google-genai==1.12.1
-uv add python-dotenv==1.1.0
-```
-
 Now run the application with your prompt:
 ```bash
 uv run main.py "Your prompt here"
